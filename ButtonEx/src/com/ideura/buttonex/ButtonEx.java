@@ -41,7 +41,7 @@ public class ButtonEx extends Activity implements View.OnClickListener {
 		setContentView(layout);
 
 		// ボタン生成
-		layout.addView(makeButton("ダイアログの表示", "0"));
+		layout.addView(makeButton("ダイアログの表示実験", "0"));
 		layout.addView(makeButton("Yes/Noダイアログの表示", "1"));
 		layout.addView(makeButton("テキストダイアログの表示", "2"));
 		layout.addView(makeButton(res2bmp(this, R.drawable.sample), "3"));
